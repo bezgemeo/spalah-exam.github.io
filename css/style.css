@@ -778,7 +778,10 @@ header nav ul li a:hover{
 	margin-bottom: 15px;
 }
 
-.service .column1,
+.service .column1{
+	border: solid 1px #e6e6e6;
+}
+
 .service .column3{
 	border: solid 1px #e6e6e6;
 }
@@ -1147,6 +1150,20 @@ header nav ul li a:hover{
 	.service .table .column2{
 		float: left;
 		width: 33.33%;
+	}
+
+	.service .column1{
+		border-top: solid 1px #e6e6e6;
+		border-left: solid 1px #e6e6e6;
+		border-bottom: solid 1px #e6e6e6;
+		border-right: none;
+	}
+
+	.service .column3{
+		border-top: solid 1px #e6e6e6;
+		border-right: solid 1px #e6e6e6;
+		border-bottom: solid 1px #e6e6e6;
+		border-left: none;
 	}
 
 
