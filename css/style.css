@@ -474,7 +474,7 @@ header nav ul li a:hover{
 	display: inline-block;
 	position: relative;
 	margin: 0 27px;
-	padding-bottom: 17px;
+	padding-bottom: 0;
 }
 
 .simple span{
@@ -1292,7 +1292,7 @@ header nav ul li a:hover{
 	.simple h2 .meaning{
 		font-size: 45px;
 		line-height: 60px;
-		padding-bottom: 33px;
+		padding-bottom: 0;
 	}
 
 	.simple span {

@@ -1,2 +1,1 @@
-# bezgemeo.github.io
-for domain access
+# exam-project
