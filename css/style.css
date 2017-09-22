@@ -796,8 +796,8 @@ header nav ul li a:hover{
 	position: relative;
 }
 
-.service .column1 h4:after,
-.service .column3 h4:after{
+.service .column1 span:before,
+.service .column3 span:before{
 	position: absolute;
 	content: '';
 	bottom: 50%;
@@ -825,10 +825,15 @@ header nav ul li a:hover{
 	position: relative;
 }
 
-.service .column2 h4:after{
+.service h4 span{
+	display: inline-block;
+	width: 100%;
+}
+
+.service .column2 span:before{
 	position: absolute;
 	content: '';
-	bottom: 50%;
+	bottom: 43%;
 	left: 50%;
 	width: 50px;
 	height: 2px;
@@ -838,12 +843,6 @@ header nav ul li a:hover{
 	-ms-transform: translateX(-50%);
 	-o-transform: translateX(-50%);
 	transform: translateX(-50%);
-}
-
-
-.service h4 span{
-	display: inline-block;
-	width: 100%;
 }
 
 .service .table li{
@@ -884,7 +883,7 @@ header nav ul li a:hover{
 .service .table .purchase a{
 	display: inline-block;
 	color: #0d0d0d;
-	padding: 14px 0 12px;
+	padding: 5px 0;
 	font-size: 14px;
 	font-weight: 600;
 	line-height: 18px;
@@ -1716,6 +1715,8 @@ header nav ul li a:hover{
 
 	.service .column1 h4, .service .column3 h4 {
 		line-height: 43px;
+		padding-bottom: 21px;
+		padding-top: 12px;
 	}
 
 	.service .table li {
@@ -1728,7 +1729,7 @@ header nav ul li a:hover{
 
 	.service .table .purchase {
 		padding: 4px 23px 7px;
-		margin: 21px 59px;
+		margin: 19px 58px;
 	}
 
 	.service .table .column2 {
@@ -1738,24 +1739,22 @@ header nav ul li a:hover{
 
 	.service .column2 h4 {
 		margin-top: -17px;
-		padding-bottom: 48px;
+		padding-bottom: 18px;
+		padding-top: 29px;
 	}
 
 	.service .column2 .purchase {
-		margin-bottom: 2px;
+		margin-bottom: 28px;
+		padding: 2px 0 3px 0;
 	}
 
 	.service .column1 .purchase,
 	.service .column3 .purchase{
-		margin-top: 15px;
-		padding-bottom: 17px;
-		margin-bottom: -8px;
+		margin-top: 18px;
+		padding-bottom: 2px;
+		margin-bottom: 13px;
 	}
 
-	.service .column1 h4,
-	.service .column3 h4{
-		padding-bottom: 30px;
-	}
 
 
 
