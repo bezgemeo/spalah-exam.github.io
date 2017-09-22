@@ -1134,7 +1134,10 @@ header nav ul li a:hover{
 
 	.service .servicon2 {
 		margin: 15px 1px 15px;
+	}
 
+	.service .servicon2 i{
+		font-size: 33px;
 	}
 
 	.service .table{
