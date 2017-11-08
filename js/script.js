@@ -28,4 +28,9 @@ $(document).ready(function() {
         });
     });
 
+    $('.maria_slider').slick({
+        arrows: false,
+        dots: true
+    });
+
 });

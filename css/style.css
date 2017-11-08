@@ -897,6 +897,68 @@ header nav ul li a:hover{
 	color: inherit;
 }
 
+.maria .maria_cont{
+	display: inline-block;
+	text-align: center;
+}
+
+.maria .maria_cont h3{
+	color: #ffffff;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 17px;
+	text-transform: uppercase;
+	position: relative;
+	margin: 40px 0 22px 0;
+}
+
+.maria .maria_cont h3:after{
+	content: '';
+	position: absolute;
+	bottom: -50%;
+	left: 50%;
+	width: 50px;
+	height: 4px;
+	background-color: #f39c12;
+	-webkit-transform: translateX(-50%);
+	-moz-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	-o-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.maria .maria_cont p{
+	color: #ffffff;
+	font-size: 13px;
+	font-weight: 300;
+	font-style: italic;
+	line-height: 15px;
+	margin: 20px 0 15px 0;
+}
+
+.maria .maria_cont .maria_photo{
+	display: inline-block;
+	margin-bottom: 30px;
+}
+
+.maria .slick-dots{
+	text-align: center;
+	padding-bottom: 30px;
+}
+
+.maria .slick-dots li{
+	display: inline-block;
+	width: 8px;
+	height: 8px;
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 50%;
+	text-indent: -99999px;
+	margin: 0 2px;
+}
+
+.maria .slick-dots li.slick-active{
+	background-color: #ffffff;
+}
 
 
 
@@ -1134,10 +1196,17 @@ header nav ul li a:hover{
 
 	.service .servicon2 {
 		margin: 15px 1px 15px;
+		float: left;
 	}
 
 	.service .servicon2 i{
 		font-size: 33px;
+	}
+
+	.service .pricing_text{
+		float: right;
+		width: 80%;
+		margin-top: 35px;
 	}
 
 	.service .table{
@@ -1169,8 +1238,26 @@ header nav ul li a:hover{
 		border-left: none;
 	}
 
+	.maria .maria_cont .maria_text{
+		display: inline-block;
+		width: 80%;
+	}
 
+	.maria .maria_cont h3{
+		margin-bottom: 20px;
+		font-size: 18px;
+		line-height: 22px;
+	}
 
+	.maria .maria_cont h3:after{
+		bottom: -15px;
+	}
+
+	.maria .maria_cont p{
+		margin-bottom: 18px;
+		font-size: 18px;
+		line-height: 20px;
+	}
 
 }
 
@@ -1412,11 +1499,45 @@ header nav ul li a:hover{
 		width: 20%;
 	}
 
+	.service .pricing_text{
+		float: none;
+		width: 100%;
+		margin-top: 0;
+	}
+
 	.service .table {
 		float: right;
 		width: 78%;
 	}
 
+	.maria .maria_cont .maria_text {
+		width: 784px;
+	}
+
+	.maria .maria_cont h3{
+		font-size: 24px;
+		line-height: 26px;
+		margin-top: 198px;
+		margin-bottom: 58px;
+	}
+
+	.maria .maria_cont h3:after{
+		bottom: -17px;
+	}
+
+	.maria .maria_cont p {
+		margin-bottom: 27px;
+		font-size: 22px;
+		line-height: 30px;
+	}
+
+	.maria .maria_photo{
+		margin-bottom: 27px;
+	}
+
+	.maria .slick-dots{
+		padding-bottom: 197px;
+	}
 
 
 }
@@ -1713,6 +1834,7 @@ header nav ul li a:hover{
 
 	.service .servcontent2 {
 		padding-top: 90px;
+		padding-bottom: 70px;
 	}
 
 	.service .floating {
@@ -1721,6 +1843,7 @@ header nav ul li a:hover{
 
 	.service .servicon2 {
 		margin: 0 1px 25px;
+		float: none;
 	}
 
 
@@ -1774,6 +1897,23 @@ header nav ul li a:hover{
 		padding-bottom: 2px;
 		margin-bottom: 13px;
 	}
+
+	.maria .maria_cont h3 {
+		margin-bottom: 52px;
+	}
+
+	.maria .maria_cont h3:after {
+		bottom: -18px;
+	}
+
+	.maria .maria_cont .maria_photo {
+		margin-bottom: 25px;
+	}
+
+	.maria .slick-dots {
+		padding-bottom: 187px;
+	}
+
 
 
 
