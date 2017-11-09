@@ -33,4 +33,9 @@ $(document).ready(function() {
         dots: true
     });
 
+    $('.digital').slick({
+        arrows: false,
+        dots: true
+    });
+
 });

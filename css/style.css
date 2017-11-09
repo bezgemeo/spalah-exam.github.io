@@ -960,6 +960,189 @@ header nav ul li a:hover{
 	background-color: #ffffff;
 }
 
+.portfolio .digi-slides{
+	display: inline-block;
+}
+
+.portfolio .orange-form{
+	display: inline-block;
+	width: 100%;
+	height: 200px;
+	background-color: #f39c12;
+	position: relative;
+}
+
+.portfolio .orange-form img{
+	position: absolute;
+	display: inline-block;
+	top: 50%;
+	left: 50%;
+	width: 45px;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+.portfolio .digital{
+	position: relative;
+}
+
+.portfolio .slick-dots{
+	position: absolute;
+	top: 50%;
+	right: 0;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+.portfolio .slick-dots li{
+	width: 8px;
+	height: 8px;
+	background-color: rgba(255, 255, 255, 0.2);
+	border-radius: 50%;
+	text-indent: -99999px;
+	margin-bottom: 5px;
+}
+
+.portfolio .slick-dots li.slick-active{
+	background-color: #ffffff;
+}
+
+.portfolio .digitalwork{
+	padding-top: 20px;
+	padding-bottom: 17px;
+	text-align: center;
+}
+
+.portfolio .digitalwork h3{
+	color: #0d0d0d;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 25px;
+	text-transform: uppercase;
+	padding-top: 7px;
+}
+
+.portfolio .digitalwork p{
+	color: #808080;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 25px;
+	text-transform: uppercase;
+}
+
+.portfolio .portfcontent1{
+	position: relative;
+}
+
+.portfolio .portfcontent1:after{
+	content: '';
+	background-color: #e6e6e6;
+	width: 100%;
+	height: 2px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+
+.portfolio .links{
+	text-align: center;
+	padding-top: 20px;
+}
+
+.portfolio .links>li{
+	display: inline-block;
+	position: relative;
+	padding: 0 10px 5px 10px;
+}
+
+.portfolio .links>li:before{
+	content: '';
+	width: 3px;
+	height: 10px;
+	position: absolute;
+	top: 7px;
+	left: -6px;
+	border-left: 2px solid #a6a6a6;
+	border-right: 2px solid #a6a6a6;
+	-webkit-transform: skewX(-337deg);
+	-moz-transform: skewX(-337deg);
+	-ms-transform: skewX(-337deg);
+	-o-transform: skewX(-337deg);
+	transform: skewX(-337deg);
+}
+
+.portfolio .links>li:first-child:before{
+	display: none;
+}
+
+.portfolio .links>li:nth-child(4):before{
+	display: none;
+}
+
+.portfolio .links a{
+	color: #0d0d0d;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 25px;
+	text-transform: uppercase;
+}
+
+.portfolio .links a:hover{
+	color: #f39c12;
+}
+
+.portfolio .portfcontent2 li{
+	display: inline-block;
+}
+
+.portfolio .portfcontent2 li:hover{
+	background: url('../img/bridges.png') 50% 0 no-repeat;
+}
+
+
+.portfolio .portfcontent2 .light-gray{
+	width: 292px;
+	height: 220px;
+	background-color: #c7c7c7;
+	position: relative;
+}
+
+.portfolio .light-gray img{
+	position: absolute;
+	display: inline-block;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
+
+.portfolio .portfcontent2 .dark-gray{
+	width: 292px;
+	height: 220px;
+	background-color: #b7b7b7;
+	position: relative;
+}
+
+.portfolio .dark-gray img{
+	position: absolute;
+	display: inline-block;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
 
 
 
