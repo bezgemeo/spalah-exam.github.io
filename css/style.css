@@ -960,6 +960,40 @@ header nav ul li a:hover{
 	background-color: #ffffff;
 }
 
+.portfolio .title2{
+	text-align: center;
+	display: inline-block;
+}
+
+.portfolio .title2 h2{
+	color: #0d0d0d;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 22px;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.portfolio .title2 p{
+	color: #4d4d4d;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16px;
+	text-transform: uppercase;
+	position: relative;
+	margin: 14px 0 10px;
+}
+
+.portfolio .title2 p:before{
+	content: '';
+	position: absolute;
+	top: -10px;
+	left: 0;
+	width: 100%;
+	height: 4px;
+	background-color: #f39c12;
+}
+
 .portfolio .digi-slides{
 	display: inline-block;
 }
@@ -1081,11 +1115,11 @@ header nav ul li a:hover{
 	display: none;
 }
 
-.portfolio .links>li:nth-child(4):before{
-	display: none;
+.portfolio .portfcontent2{
+	text-align: center;
 }
 
-.portfolio .links a{
+.portfolio .portfcontent2 a.r-tabs-anchor{
 	color: #0d0d0d;
 	font-size: 13px;
 	font-weight: 700;
@@ -1093,18 +1127,14 @@ header nav ul li a:hover{
 	text-transform: uppercase;
 }
 
-.portfolio .links a:hover{
+.portfolio .portfcontent2 .r-tabs-state-active a{
 	color: #f39c12;
 }
 
-.portfolio .portfcontent2 li{
+.portfolio .portgallery{
 	display: inline-block;
+	margin-bottom: 16px;
 }
-
-.portfolio .portfcontent2 li:hover{
-	background: url('../img/bridges.png') 50% 0 no-repeat;
-}
-
 
 .portfolio .portfcontent2 .light-gray{
 	width: 292px;
@@ -1125,6 +1155,41 @@ header nav ul li a:hover{
 	transform: translate(-50%,-50%);
 }
 
+.portfolio .portgallery .light-gray .hover-photo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-ms-transform: scale(0);
+	-o-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.portfolio .portgallery:hover .light-gray .hover-photo{
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+
+.portfolio .portgallery .hover-photo a{
+	display: inline-block;
+	width: 99px;
+	height: 99px;
+	background-color: rgba(243,156,18,0.5);
+	border-radius: 50%;
+	margin: 62px 97px;
+}
+
 .portfolio .portfcontent2 .dark-gray{
 	width: 292px;
 	height: 220px;
@@ -1142,6 +1207,56 @@ header nav ul li a:hover{
 	-ms-transform: translate(-50%,-50%);
 	-o-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
+}
+
+.portfolio .portgallery .dark-gray .hover-photo{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	-webkit-transform: scale(0);
+	-moz-transform: scale(0);
+	-ms-transform: scale(0);
+	-o-transform: scale(0);
+	transform: scale(0);
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.portfolio .portgallery:hover .dark-gray .hover-photo{
+	-webkit-transform: scale(1);
+	-moz-transform: scale(1);
+	-ms-transform: scale(1);
+	-o-transform: scale(1);
+	transform: scale(1);
+}
+
+.portfolio .portgallery h3{
+	color: #0d0d0d;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 20px;
+	margin-top: 7px;
+	text-transform: uppercase;
+}
+
+.portfolio .portgallery a:hover h3{
+	color: #f39c12;
+}
+
+.portfolio .portgallery p{
+	color: #8c8c8c;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+.r-tabs .r-tabs-panel{
+	padding: 0;
 }
 
 
@@ -1442,6 +1557,63 @@ header nav ul li a:hover{
 		line-height: 20px;
 	}
 
+	.portfolio .title2{
+		text-align: left;
+		display: inline-block;
+		margin: 0 24px;
+		position: relative;
+	}
+
+	.portfolio .title2 h2{
+		position: absolute;
+		display: inline-block;
+		font-size: 22px;
+		line-height: 27px;
+		float: left;
+		width: 13%;
+		left: -28px;
+		top: 50%;
+		-webkit-transform: translate(0,-50%);
+		-moz-transform: translate(0,-50%);
+		-ms-transform: translate(0,-50%);
+		-o-transform: translate(0,-50%);
+		transform: translate(0,-50%);
+	}
+
+	.portfolio .title2 p{
+		font-size: 16px;
+		line-height: 25px;
+		float: right;
+		width: 82%;
+	}
+
+	.portfolio .title2 p:before{
+		top: 0;
+		left: -20px;
+		width: 4px;
+		height: 100%;
+	}
+
+	.portfolio .orange-form {
+		height: 400px;
+		margin-top: 40px;
+		margin-bottom: 20px;
+	}
+
+	.portfolio .digitalwork {
+		padding-bottom: 50px;
+	}
+
+	.portfolio .links {
+		padding-top: 60px;
+		padding-bottom: 20px;
+	}
+
+	.portfolio .portgallery {
+		display: inline-block;
+		margin: 0 -2px 16px;
+	}
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -1722,37 +1894,85 @@ header nav ul li a:hover{
 		padding-bottom: 197px;
 	}
 
+	.portfolio .title2{
+		margin: 0 45px;
+	}
+
+	.portfolio .title2 h2{
+		font-size: 28px;
+		line-height: 32px;
+		left: -48px;
+	}
+
+	.portfolio .title2 p{
+		width: 85%;
+	}
+
+	.portfolio .orange-form {
+		height: 580px;
+		margin-top: 151px;
+		margin-bottom: 50px;
+	}
+
+	.portfolio .slick-dots {
+		position: absolute;
+		top: 56%;
+	}
+
+	.portfolio .slick-dots li {
+		width: 15px;
+		height: 15px;
+	}
+
+	.portfolio .orange-form img {
+		width: 71px;
+	}
+
+	.portfolio .digitalwork {
+		padding-bottom: 120px;
+	}
+
+	.portfolio .links {
+		padding-top: 120px;
+		padding-bottom: 65px;
+	}
+
+	.portfolio .portgallery {
+		margin: 0 19px 16px;
+	}
+
+
 
 }
 
-@media screen and (min-width: 1190px){
+@media screen and (min-width: 1190px) {
 
-	.container{
+	.container {
 		width: 1170px;
 		padding: 0;
 	}
 
-	header .logo{
+	header .logo {
 		margin: 85px 0 0 0;
 	}
 
-	header nav ul{
+	header nav ul {
 		margin-top: 149px;
 	}
 
-	header nav ul li{
+	header nav ul li {
 		padding: 0 39px;
 	}
 
-	header nav li:first-child a{
+	header nav li:first-child a {
 		letter-spacing: -1.08px;
 	}
 
-	header nav ul li:last-child{
+	header nav ul li:last-child {
 		padding: 0 0 0 45px;
 	}
 
-	header nav ul li:before{
+	header nav ul li:before {
 		content: '';
 		width: 3px;
 		height: 14px;
@@ -1761,44 +1981,44 @@ header nav ul li a:hover{
 		left: -3px;
 	}
 
-	.banner{
+	.banner {
 		padding-top: 428px;
 	}
 
-	.banner .title h3{
+	.banner .title h3 {
 		font-size: 43px;
 		line-height: 45px;
 		padding-top: 28px;
 	}
 
-	.banner .title h2{
+	.banner .title h2 {
 		font-size: 66px;
 		line-height: 68px;
 		padding-top: 13px;
 		letter-spacing: -2px;
 	}
 
-	.banner .title h4{
+	.banner .title h4 {
 		font-size: 36px;
 		line-height: 38px;
 		padding-top: 18px;
 	}
 
-	.banner .button{
+	.banner .button {
 		padding-top: 94px;
 	}
 
-	.banner .button a{
+	.banner .button a {
 		padding: 12px 38px;
 		font-size: 13px;
 	}
 
-	.banner .slick-dots{
+	.banner .slick-dots {
 		padding-bottom: 172px;
 		padding-top: 60px;
 	}
 
-	.banner .slick-dots li{
+	.banner .slick-dots li {
 		width: 12px;
 		height: 12px;
 		margin: 0 3px;
@@ -1814,7 +2034,7 @@ header nav ul li a:hover{
 		text-align: center;
 	}
 
-	.about{
+	.about {
 		padding: 86px 0 31px 0;
 	}
 
@@ -1822,11 +2042,11 @@ header nav ul li a:hover{
 		width: 56%;
 	}
 
-	.about .content{
+	.about .content {
 		padding-bottom: 86px;
 	}
 
-	.about .content + .content{
+	.about .content + .content {
 		padding: 0;
 		margin-top: 122px;
 	}
@@ -1897,7 +2117,7 @@ header nav ul li a:hover{
 		margin: 0;
 	}
 
-	.simple h2 .meaning{
+	.simple h2 .meaning {
 		font-size: 45px;
 		line-height: 56px;
 		padding-bottom: 0;
@@ -1960,7 +2180,7 @@ header nav ul li a:hover{
 		position: relative;
 	}
 
-	.stat ul{
+	.stat ul {
 		position: absolute;
 		top: -471px;
 		left: 50%;
@@ -2003,7 +2223,7 @@ header nav ul li a:hover{
 		margin-top: 0;
 	}
 
-	.service .servcontent1 li:last-child{
+	.service .servcontent1 li:last-child {
 		margin-right: 0;
 	}
 
@@ -2011,7 +2231,7 @@ header nav ul li a:hover{
 		margin: 0 auto 26px;
 	}
 
-	.service .servicon i{
+	.service .servicon i {
 		font-size: 30px;
 	}
 
@@ -2028,7 +2248,6 @@ header nav ul li a:hover{
 		margin: 0 1px 25px;
 		float: none;
 	}
-
 
 	.service h3 {
 		margin-bottom: 11px;
@@ -2049,7 +2268,7 @@ header nav ul li a:hover{
 		padding: 5px 0;
 	}
 
-	.service .table li:last-child{
+	.service .table li:last-child {
 		padding: 18px 0;
 	}
 
@@ -2075,7 +2294,7 @@ header nav ul li a:hover{
 	}
 
 	.service .column1 .purchase,
-	.service .column3 .purchase{
+	.service .column3 .purchase {
 		margin-top: 18px;
 		padding-bottom: 2px;
 		margin-bottom: 13px;
@@ -2097,7 +2316,64 @@ header nav ul li a:hover{
 		padding-bottom: 187px;
 	}
 
+	.portfolio {
+		padding-top: 82px;
+	}
 
+	/* this is the title specifically for the portfolio section
+	 because the general title1 was not working for it*/
+	.portfolio .title2 {
+		margin: 0 63px 108px;
+	}
+
+	.portfolio .title2 h2 {
+		font-size: 30px;
+		left: -53px;
+		text-align: center;
+	}
+
+	.portfolio .orange-form {
+		margin-top: 24px;
+		margin-bottom: 25px;
+	}
+
+	.portfolio .slick-dots {
+		top: 48%;
+		right: 12px;
+	}
+
+	.portfolio .digitalwork h3{
+		padding-top: 13px;
+	}
+
+	.portfolio .links {
+		padding-top: 112px;
+		padding-bottom: 70px;
+	}
+
+	.portfolio .links>li:before {
+		-webkit-transform: skewX(337deg);
+		-moz-transform: skewX(337deg);
+		-ms-transform: skewX(337deg);
+		-o-transform: skewX(337deg);
+		transform: skewX(337deg);
+	}
+
+	.portfolio .links>li {
+		padding: 0 28px 3px;
+	}
+
+	.portfolio .portgallery {
+		margin: 0 -2px 23px;
+	}
+
+	.portfolio .portgallery h3{
+		margin-top: 17px;
+	}
+
+	.r-tabs .r-tabs-panel{
+		padding: 0;
+	}
 
 
 

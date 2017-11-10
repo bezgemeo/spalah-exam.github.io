@@ -38,4 +38,8 @@ $(document).ready(function() {
         dots: true
     });
 
+    $('#responsiveTabs').responsiveTabs({
+        startCollapsed: 'accordion'
+    });
+
 });
