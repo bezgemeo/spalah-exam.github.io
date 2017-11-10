@@ -638,7 +638,6 @@ header nav ul li a:hover{
 .stat .staticon:hover{
 	border: 2px solid #ffffff;
 	color: #f39c12;
-
 }
 
 .stat .staticon i{
@@ -1258,6 +1257,61 @@ header nav ul li a:hover{
 .r-tabs .r-tabs-panel{
 	padding: 0;
 }
+
+.twitter .twcontent{
+	display: inline-block;
+	text-align: center;
+	padding: 60px 0 50px;
+}
+
+.twitter .twittericon{
+	width: 100px;
+	height: 100px;
+	border: 2px solid #ffffff;
+	border-radius: 50%;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+.twitter .twittericon i{
+	display: inline-block;
+	color: #f39c12;
+	font-size: 20px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform:  translate(-50%, -50%);
+	-ms-transform:  translate(-50%, -50%);
+	-o-transform:  translate(-50%, -50%);
+	transform:  translate(-50%, -50%);
+}
+
+
+.twitter .twcontent h3{
+	color: #ffffff;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 20px;
+	padding-top: 15px;
+}
+
+.twitter .twcontent a{
+	color: #f39c12;
+}
+
+.twitter .twcontent p{
+	color: #808080;
+	font-size: 10px;
+	font-weight: 300;
+	font-style: italic;
+	line-height: 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+
 
 
 
@@ -1941,6 +1995,22 @@ header nav ul li a:hover{
 		margin: 0 19px 16px;
 	}
 
+	.twitter .twcontent{
+		margin: 228px 61px 210px;
+	}
+
+	.twitter .twcontent h3 {
+		padding-top: 35px;
+		padding-bottom: 16px;
+		font-size: 22px;
+		line-height: 33px;
+	}
+
+	.twitter .twcontent p{
+		font-size: 15px;
+		line-height: 38px;
+	}
+
 
 
 }
@@ -2318,6 +2388,7 @@ header nav ul li a:hover{
 
 	.portfolio {
 		padding-top: 82px;
+		padding-bottom: 97px;
 	}
 
 	/* this is the title specifically for the portfolio section
@@ -2375,6 +2446,17 @@ header nav ul li a:hover{
 		padding: 0;
 	}
 
+	.twitter .twcontent {
+		margin: 180px 149px 146px;
+	}
+
+	.twitter .twittericon i {
+		font-size: 31px;
+	}
+
+	.twitter .twcontent h3 {
+		padding-top: 26px;
+	}
 
 
 }
