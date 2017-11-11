@@ -1311,6 +1311,141 @@ header nav ul li a:hover{
 	padding-bottom: 10px;
 }
 
+.blog {
+	background-color: #ffffff;
+}
+
+.blog li{
+	display: inline-block;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+
+.blog li .awsphoto{
+	display: inline-block;
+	width: 290px;
+	height: 230px;
+	background-color: #b7b7b7;
+	position: relative;
+}
+
+.blog .awsphoto img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform:  translate(-50%, -50%);
+	-ms-transform:  translate(-50%, -50%);
+	-o-transform:  translate(-50%, -50%);
+	transform:  translate(-50%, -50%);
+}
+
+.blog .awsphoto .orange-sqare {
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	background-color: #f39c12;
+	position: absolute;
+	bottom: 0;
+	left: 20px;
+}
+
+.blog .awsphoto i{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: #ffffff;
+	font-size: 23px;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform:  translate(-50%, -50%);
+	-ms-transform:  translate(-50%, -50%);
+	-o-transform:  translate(-50%, -50%);
+	transform:  translate(-50%, -50%);
+}
+
+.blog .awsphoto h3 {
+	display: inline-block;
+	position: absolute;
+	width: 235px;
+	height: 46px;
+	bottom: 0;
+	right: 0;
+	background-color: #ffffff;
+	color: #0d0d0d;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 18px;
+	text-transform: uppercase;
+	padding: 6px 0 0 10px;
+}
+
+.blog li .post-info{
+	display: inline-block;
+	padding-left: 67px;
+}
+
+.blog .post-info .date{
+	color: #808080;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+	letter-spacing: -0.28px;
+}
+
+.blog .post-info .author{
+	color: #808080;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+}
+
+.blog .post-info .comments-number{
+	color: #808080;
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 16px;
+}
+
+.blog .post-content {
+	display: inline-block;
+	padding-top: 10px;
+}
+
+.blog .post-content p{
+	color: #595959;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 20px;
+	padding-left: 22px;
+}
+
+.blog .post-content .read-on{
+	display: inline-block;
+	border: 2px solid #f39c12;
+	background-color: #ffffff;
+	padding: 4px 12px;
+	text-align: center;
+	margin: 10px 22px;
+}
+
+.blog .post-content .read-on:hover{
+	background-color: #f39c12;
+}
+
+.blog .read-on a{
+	color: #0d0d0d;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 17px;
+	text-transform: uppercase;
+}
+
+.blog .read-on:hover a{
+	color: #ffffff;
+}
+
+
+
 
 
 
@@ -1668,6 +1803,64 @@ header nav ul li a:hover{
 		margin: 0 -2px 16px;
 	}
 
+
+	.blog ul{
+		padding-top: 20px;
+	}
+
+	.blog li {
+		display: inline-block;
+		padding: 0;
+		width: 46%;
+		margin: 10px 0 15px 20px;
+	}
+
+	.blog li .awsphoto {
+		width: 338px;
+	}
+
+	.blog .awsphoto .orange-sqare {
+		width: 40px;
+		height: 40px;
+		left: 57px;
+	}
+
+	.blog .awsphoto h3 {
+		bottom: -1px;
+		right: -1px;
+		width: 242px;
+		height: 56px;
+		font-size: 16px;
+		line-height: 20px;
+		padding: 9px 0 0 10px;
+	}
+
+	.blog li .post-info {
+		display: inline-block;
+		padding-left: 0;
+		padding-top: 10px;
+		float: left;
+		width: 23%;
+	}
+
+	.blog .post-info .date{
+		text-align: right;
+	}
+
+	.blog .post-info .author{
+		text-align: right;
+	}
+
+	.blog .post-info .comments-number{
+		text-align: right;
+	}
+
+	.blog .post-content {
+		float: right;
+		width: 76%;
+	}
+
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -2010,6 +2203,31 @@ header nav ul li a:hover{
 		font-size: 15px;
 		line-height: 38px;
 	}
+
+	.blog li {
+		margin: 10px 0 48px 28px;
+	}
+
+	.blog li .awsphoto {
+		width: 452px;
+		height: 300px;
+	}
+
+	.blog .awsphoto .orange-sqare {
+		width: 44px;
+		height: 44px;
+		left: 66px;
+	}
+
+	.blog .awsphoto h3 {
+		bottom: -1px;
+		right: -1px;
+		width: 343px;
+		height: 66px;
+		padding: 31px 0 0 20px;
+	}
+
+
 
 
 
@@ -2457,6 +2675,76 @@ header nav ul li a:hover{
 	.twitter .twcontent h3 {
 		padding-top: 26px;
 	}
+
+	.blog {
+		padding-top: 83px;
+	}
+
+	.blog ul {
+		padding-top: 11px;
+		margin-right: -64px;
+	}
+
+	.blog li {
+		margin: 10px 41px 27px 0;
+	}
+
+	.blog li .awsphoto {
+		width: 555px;
+		height: 300px;
+	}
+
+	.blog .awsphoto .orange-sqare {
+		left: 68px;
+	}
+
+	.blog .awsphoto h3 {
+		width: 444px;
+		height: 59px;
+		font-size: 20px;
+		line-height: 25px;
+		padding: 25px 0 0 20px;
+	}
+
+	.blog li .post-info {
+		padding-top: 14px;
+		width: 17%;
+	}
+
+	.blog .post-info .date {
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	.blog .post-info .author{
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	.blog .post-info .comments-number{
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	.blog .post-content {
+		float: right;
+		width: 81%;
+		padding-top: 11px;
+	}
+
+	.blog .post-content p {
+		font-size: 17px;
+		line-height: 28px;
+	}
+
+	.blog .post-content .read-on {
+		padding: 4px 21px;
+		margin: 25px 22px;
+	}
+
+
+
+
 
 
 }
