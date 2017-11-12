@@ -1444,8 +1444,43 @@ header nav ul li a:hover{
 	color: #ffffff;
 }
 
+.our-clients{
+	background-color: #ffffff;
+	text-align: center;
+}
 
+.our-clients h2{
+	color: #ffffff;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 22px;
+	text-transform: uppercase;
+	padding-top: 90px;
+	padding-bottom: 20px;
+}
 
+.our-clients ul{
+	padding-bottom: 110px;
+}
+
+.our-clients li{
+	width: 257px;
+	height: 162px;
+	border: 2px solid rgba(255, 255, 255, 0.25);
+	/*margin: 10px auto 10px;*/
+	position: relative;
+}
+
+.our-clients li img{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
+	-ms-transform: translate(-50%,-50%);
+	-o-transform: translate(-50%,-50%);
+	transform: translate(-50%,-50%);
+}
 
 
 
@@ -1860,6 +1895,14 @@ header nav ul li a:hover{
 		width: 76%;
 	}
 
+	.our-clients li{
+		display: inline-block;
+		margin: 15px;
+	}
+
+
+
+
 
 }
 
@@ -2225,6 +2268,10 @@ header nav ul li a:hover{
 		width: 343px;
 		height: 66px;
 		padding: 31px 0 0 20px;
+	}
+
+	.our-clients li {
+		margin: 36px;
 	}
 
 
@@ -2740,6 +2787,36 @@ header nav ul li a:hover{
 	.blog .post-content .read-on {
 		padding: 4px 21px;
 		margin: 25px 22px;
+	}
+
+	.our-clients h2 {
+		font-size: 30px;
+		line-height: 32px;
+		padding-top: 210px;
+		margin-top: 44px;
+	}
+
+	.our-clients ul {
+		padding-bottom: 245px;
+		margin: 0 -30px;
+	}
+
+	.our-clients li {
+		margin: 31px 23px 0 23px;
+	}
+
+	.our-clients #color, #music {
+		-webkit-animation-delay: 0.5s;
+		-moz-animation-delay: 0.5s;
+		-o-animation-delay: 0.5s;
+		animation-delay: 0.5s;
+	}
+
+	.our-clients #echo, #continens {
+		-webkit-animation-delay: 1.5s;
+		-moz-animation-delay: 1.5s;
+		-o-animation-delay: 1.5s;
+		animation-delay: 1.5s;
 	}
 
 
