@@ -42,4 +42,32 @@ $(document).ready(function() {
         startCollapsed: 'accordion'
     });
 
+    google.maps.event.addDomListener(window, 'load', init);
+
+    function init() {
+
+        var lat = $('.pointer').attr('data-lat');
+        var lng = $('.pointer').attr('data-lng');
+
+        var mapOptions = {
+            zoom: 17,
+            center: new google.maps.LatLng(lat, lng), // Melbourne
+            styles: [{"featureType":"poi.park","elementType":"geometry.fill","stylers":[{"color":"#c9ccc6"},{"visibility":"on"}]}]
+        };
+
+        var mapElement = document.getElementById('map');
+
+        var map = new google.maps.Map(mapElement, mapOptions);
+
+        var marker = new google.maps.Marker({
+            position: new google.maps.LatLng(lat, lng),
+            map: map,
+            title: 'hello, world!',
+            icon: {
+                url: "img/marker.png",
+                scaledSize: new google.maps.Size(56, 62)
+            }
+        });
+    }
+
 });
