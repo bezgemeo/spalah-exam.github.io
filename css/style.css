@@ -1556,6 +1556,21 @@ section.portfolio {
 	right: 9px;
 }
 
+.contact form .img-orange{
+	position: absolute;
+	display: none;
+}
+
+.contact form input:valid ~ .img-gray,
+.contact form textarea:valid ~ .img-gray{
+	display: none;
+}
+
+.contact form input:valid ~ .img-orange,
+.contact form textarea:valid ~ .img-orange{
+	display: inline-block;
+}
+
 .contact li input[type='submit']{
 	width: 130px;
 	height: 38px;
@@ -1655,7 +1670,7 @@ section.portfolio {
 	top: -3px;
 	left: 0;
 	border-style: solid;
-	border-width: 99px 1970px 0 0;
+	border-width: 5vw 100vw 0 0;
 	border-color: #ffffff transparent transparent transparent;
 	width: 0;
 	height: 0;
@@ -1667,7 +1682,7 @@ section.portfolio {
 	bottom: -3px;
 	right: 0;
 	border-style: solid;
-	border-width: 0 0 99px 1970px;
+	border-width: 0 0 5vw 100vw;
 	border-color: transparent transparent #ffffff transparent;
 	width: 0;
 	height: 0;
@@ -2976,7 +2991,7 @@ footer li a:hover{
 	}
 
 	.portfolio .slick-dots {
-		top: 48%;
+		top: 50%;
 		right: 12px;
 	}
 
@@ -3100,11 +3115,19 @@ footer li a:hover{
 
 	.our-clients ul {
 		padding-bottom: 245px;
-		margin: 0 -30px;
+		/*margin: 0 -30px;*/
 	}
 
 	.our-clients li {
-		margin: 31px 23px 0 23px;
+		margin: 31px 21px 0 21px;
+	}
+
+	.our-clients li:first-child{
+		margin-left: 0;
+	}
+
+	.our-clients li:last-child{
+		margin-right: 0;
 	}
 
 	.our-clients #color, #music {
@@ -3195,12 +3218,6 @@ footer li a:hover{
 		margin-top: 92px;
 	}
 
-	/*.map-angle {*/
-		/*top: -56px;*/
-		/*border-top: solid 108px #ffffff;*/
-		/*border-bottom: solid 96px #ffffff;*/
-		/*height: 708px;*/
-	/*}*/
 
 	.map1 {
 		width: 100%;
